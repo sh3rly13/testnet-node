@@ -41,7 +41,10 @@ curl -L https://risczero.com/install | bash
 restart your shell or run kısmındaki kodu çalıştırın  rzup install
 ```
 ```zsh
-cargo install --git https://github.com/risc0/risc0 bento-client --bin bento_cli  export PATH="$HOME/.cargo/bin:$PATH"
+cargo install --git https://github.com/risc0/risc0 bento-client --bin bento_cli
+```
+```zsh
+export PATH="$HOME/.cargo/bin:$PATH"
 ```
 ```zsh
 echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
@@ -52,6 +55,7 @@ source ~/.bashrc  cargo install --locked boundless-cli
 ```zsh
 nano .env.base
 ```
-### Şimdi infura Rpc almamız gerek [Infura](https://developer.metamask.io)
+### Şimdi [Infura](https://developer.metamask.io) Rpc almamız gerek 
+Kayıt olun ardından soldaki menüden İnfura Rpc den rpc alın (ücretsiz) Base mainnet in seçili olduğundan emin olun.
 
 
