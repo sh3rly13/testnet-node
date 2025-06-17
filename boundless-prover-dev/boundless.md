@@ -12,36 +12,44 @@
 >[!NOTE]
 >Komutları tek tek (satır satır) çalıştırınız.
 
-
-`brew update`
-`brew upgrade`
-
 ```zsh
 brew update
 brew upgrade
-
+```
+```zsh
 brew install curl git gcc make cmake protobuf
-
+```
+```zsh
 screen -S boundless
-
+```
+```zsh
 git clone https://github.com/boundless-xyz/boundless
-
+```
+```zsh
 cd boundless
-
+```
+```zsh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
+```
+```zsh
 source $HOME/.cargo/env
-
+```
+```zsh
 curl -L https://risczero.com/install | bash
-
+```
+```zsh
 restart your shell or run kısmındaki kodu çalıştırın  rzup install
-
+```
+```zsh
 cargo install --git https://github.com/risc0/risc0 bento-client --bin bento_cli  export PATH="$HOME/.cargo/bin:$PATH"
-
+```
+```zsh
 echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
-
+```
+```zsh
 source ~/.bashrc  cargo install --locked boundless-cli
-
+```
+```zsh
 nano .env.base
 ```
 ### Şimdi infura Rpc almamız gerek [Infura](https://developer.metamask.io)
