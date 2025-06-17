@@ -57,5 +57,21 @@ nano .env.base
 ```
 ### Şimdi [Infura](https://developer.metamask.io) Rpc almamız gerek 
 Kayıt olun ardından soldaki menüden İnfura Rpc den rpc alın (ücretsiz) Base mainnet in seçili olduğundan emin olun.
+Açılan Nano dosyasına aşağıdaki **satırları ekleyin** 
+ctrl + x --> y --> enter ile dosyayı kaydedip çıkın
+```zsh
+export ETH_RPC_URL="ALCHEMY-BASE-MAİNNET-LİNKİ"
+export PRIVATE_KEY="CÜZDANINIZIN-PRİVATE-KEYİ" 
+```
+Aşağıdaki gibi gözükmesi lazım 
+```zsh
+# Base contract addresses
+export VERIFIER_ADDRESS=0x0b144e07a0826182b6b59788c34b32bfa86fb711
+export BOUNDLESS_MARKET_ADDRESS=0x26759dbB201aFbA361Bec78E097Aa3942B0b4AB8
+export SET_VERIFIER_ADDRESS=0x8C5a8b5cC272Fe2b74D18843CF9C3aCBc952a760
 
-
+# Public order stream URL
+export ORDER_STREAM_URL="https://base-mainnet.beboundless.xyz"
+export ETH_RPC_URL="https://base-mainnet.infura.io/v3/xxxxxx"
+export PRIVATE_KEY="0x12345..."
+```
