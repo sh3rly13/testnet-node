@@ -8,8 +8,15 @@
   
 </details>
 
-## 
+## KURULUM 
 
-```javascript
-console.log("Merhaba, dünya!");
+```zsh
+brew update
+brew upgrade
+
+brew install curl git gcc make cmake protobuf
+
+screen -S boundless
+
 ```
+
