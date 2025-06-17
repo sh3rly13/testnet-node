@@ -75,3 +75,37 @@ export ORDER_STREAM_URL="https://base-mainnet.beboundless.xyz"
 export ETH_RPC_URL="https://base-mainnet.infura.io/v3/xxxxxx"
 export PRIVATE_KEY="0x12345..."
 ```
+```zsh
+source .env.base
+```
+Prover Rolü için çalıştırın : Node kurmak istiyorsanız stake 1 kısmını 10 yapın böylelikle 10 USDC stake etmiş oluyorsunuz ve NODE kurabilirsiniz. Ben node kuramayacağım için 1 yaptım.
+
+```zsh
+boundless \
+  --rpc-url "$ETH_RPC_URL" \
+  --private-key "$PRIVATE_KEY" \
+  --boundless-market-address 0x26759dbB201aFbA361Bec78E097Aa3942B0b4AB8 \
+  --set-verifier-address 0x8C5a8b5cC272Fe2b74D18843CF9C3aCBc952a760 \
+  --verifier-router-address 0x0b144e07a0826182b6b59788c34b32bfa86fb711 \
+  --order-stream-url "https://base-mainnet.beboundless.xyz" \
+  account deposit-stake 1
+```
+
+Dev Rolü için çalıştırın : 
+
+```zsh
+boundless \
+  --rpc-url "$ETH_RPC_URL" \
+  --private-key "$PRIVATE_KEY" \
+  --boundless-market-address 0x26759dbB201aFbA361Bec78E097Aa3942B0b4AB8 \
+  --set-verifier-address 0x8C5a8b5cC272Fe2b74D18843CF9C3aCBc952a760 \
+  --verifier-router-address 0x0b144e07a0826182b6b59788c34b32bfa86fb711 \
+  --order-stream-url "https://base-mainnet.beboundless.xyz/" \
+  account deposit 0.000001
+```
+### SON 
+[GUILD](https://guild.xyz/boundless-xyz)
+Guild e Katılın ve yeşilleri gördüyseniz başarılı olmuştur DC den rolleri alın.
+![](/dev.png)
+
+
