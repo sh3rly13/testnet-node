@@ -106,6 +106,6 @@ boundless \
 ### SON 
 [GUILD](https://guild.xyz/boundless-xyz)
 Guild e Katılın ve yeşilleri gördüyseniz başarılı olmuştur DC den rolleri alın.
-![](boundless-prover-dev/dev.png)
+![](/boundless-prover-dev/dev.png)
 
 
