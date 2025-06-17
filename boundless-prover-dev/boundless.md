@@ -10,6 +10,6 @@
 
 ## 
 
-\```javascript
+```javascript
 console.log("Merhaba, dünya!");
-\```
+```
