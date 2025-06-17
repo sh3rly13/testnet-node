@@ -12,6 +12,10 @@
 >[!NOTE]
 >Komutları tek tek (satır satır) çalıştırınız.
 
+
+`brew update`
+`brew upgrade`
+
 ```zsh
 brew update
 brew upgrade
